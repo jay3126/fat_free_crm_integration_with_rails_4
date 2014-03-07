@@ -6,6 +6,8 @@ gem 'rails', '4.0.3'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 
+gem 'fat_free_crm', :git => 'git://github.com/jay3126/fat_free_crm_rails_4.git'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
