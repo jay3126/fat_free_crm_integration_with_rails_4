@@ -10,6 +10,8 @@ gem 'fat_free_crm', :git => 'git://github.com/jay3126/fat_free_crm_rails_4.git'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
+gem 'rails-observers'
+gem 'thin'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
