@@ -34,6 +34,17 @@ GIT
       thor
       will_paginate
 
+GIT
+  remote: git://github.com/jay3126/i18n-custom.git
+  revision: ac81e773a9e5309a49fa1f90eab5c1f8ca4deab9
+  specs:
+    i18n (0.6.9)
+
+GIT
+  remote: git://github.com/jay3126/railties-4.0.3.git
+  revision: a8d30bff57598036b1c3ee1af6047e5c6cbc187e
+  specs:
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -104,7 +115,6 @@ GEM
     haml (3.1.8)
     hike (1.2.3)
     htmlentities (4.3.1)
-    i18n (0.6.9)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
@@ -225,11 +235,13 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
   fat_free_crm!
+  i18n!
   jbuilder (~> 1.2)
   jquery-rails
   mysql2
   rails (= 4.0.3)
   rails-observers
+  railties!
   sass-rails (~> 4.0.0)
   sdoc
   thin

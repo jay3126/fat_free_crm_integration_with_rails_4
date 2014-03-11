@@ -7,6 +7,8 @@ gem 'rails', '4.0.3'
 gem 'mysql2'
 
 gem 'fat_free_crm', :git => 'git://github.com/jay3126/fat_free_crm_rails_4.git'
+gem "i18n", :git => 'git://github.com/jay3126/i18n-custom.git'
+gem 'railties', git: 'git://github.com/jay3126/railties-4.0.3.git'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
